@@ -1,0 +1,190 @@
+ .postbit_buttons > a:link,
+.postbit_buttons > a:hover,
+.postbit_buttons > a:visited,
+.postbit_buttons > a:active {
+ cursor: pointer;
+background: none;
+border: 2px solid #cd1818;
+padding: 0px 6px;
+height: 25px;
+line-height: 25px;
+font-weight: 300;
+color: #cd1818;
+display: inline;
+float: left;
+margin-right: 7px;
+}
+
+.postbit_buttons > a:hover {
+background: #cd1818;
+color: #FFF !important;
+}
+
+.postbit_buttons a span {
+	display: inline-block;
+}
+
+.postbit_buttons a.postbit_find:before, .postbit_buttons a.postbit_reputation_add:before, .postbit_buttons a.postbit_email:before, .postbit_buttons a.postbit_website:before, .postbit_buttons a.postbit_pm:before, .postbit_buttons a.postbit_quote:before, .postbit_buttons a.postbit_multiquote:before, .postbit_buttons a.postbit_edit:before, .postbit_buttons a.postbit_multiquote_on:before, .postbit_buttons a.postbit_edit:before, .postbit_buttons a.postbit_qdelete:before, .postbit_buttons a.postbit_qrestore:before, .postbit_buttons a.postbit_report:before, .postbit_buttons a.postbit_warn:before, .postbit_buttons a.postbit_purgespammer:before, .postbit_buttons a.postbit_reply_pm:before, .postbit_buttons a.postbit_reply_all:before, .postbit_buttons a.postbit_forward_pm:before, .postbit_buttons a.postbit_delete_pm:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 13px;
+    vertical-align: middle;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+}
+
+a.postbit_find:hover, .buddy_status {
+  color: #FFF !important;
+}
+
+.postbit_buttons a.postbit_find:before {
+content: "\f00e";
+}
+
+.postbit_buttons a.postbit_reputation_add:before {
+content: "\f0fe";
+}
+
+.postbit_buttons a.postbit_email:before {
+content: "\f0e0";
+}
+
+.postbit_buttons a.postbit_website:before {
+content: "\f0ac";
+}
+
+.postbit_buttons a.postbit_pm:before {
+content: "\f086";
+}
+
+.postbit_buttons a.postbit_quote:before {
+content: "\f10d";
+}
+
+.postbit_buttons a.postbit_multiquote:before {
+content: "\f04d";
+}
+
+.postbit_buttons a.postbit_multiquote_on:before {
+content: "\f009";
+}
+
+.postbit_buttons a.postbit_edit:before {
+content: "\f044";
+}
+
+.postbit_buttons a.postbit_qdelete:before {
+content: "\f05c";
+}
+
+.postbit_buttons a.postbit_qrestore:before {
+content: "\f0a8";
+}
+
+.postbit_buttons a.postbit_report:before {
+content: "\f0e7";
+}
+
+.postbit_buttons a.postbit_warn:before {
+content: "\f071";
+}
+
+.postbit_buttons a.postbit_purgespammer:before {
+content: "\f014";
+}
+
+.postbit_buttons a.postbit_reply_pm:before {
+content: "\f112";
+}
+
+.postbit_buttons a.postbit_reply_all:before {
+content: "\f122";
+}
+
+.postbit_buttons a.postbit_forward_pm:before {
+content: "\f14d";
+}
+
+.postbit_buttons a.postbit_delete_pm span {
+content: "\f057";
+}
+
+a.button:link,
+a.button:visited,
+a.button:active {
+border: 2px solid #cd1818;
+background: none;
+color: #cd1818;
+display: inline-block;
+padding: 6px 12px;
+margin: 2px 2px 6px 2px;
+font-size: 14px;
+}
+
+a.button:hover {
+background: #cd1818;
+color: #FFF !important;
+}
+
+a.button.small_button {
+	font-size: 13px;
+	margin: 0;
+	padding: 3px 6px;
+}
+
+a.button span {
+	display: inline-block;
+}
+
+a.button.new_thread_button:before, a.button.new_reply_button:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 13px;
+    vertical-align: middle;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+}
+
+
+
+a.button.new_thread_button:before {
+content: "\f0fe";
+}
+
+a.button.new_reply_button:before {
+content: "\f0fe";
+}
+
+a.button.closed_button span {
+	background-position: 0 -380px;
+}
+
+a.button.rate_user_button span {
+	background-position: 0 -400px;
+}
+
+a.button.add_buddy_button span {
+	background-position: 0 -440px;
+}
+
+a.button.remove_buddy_button span {
+	background-position: 0 -480px;
+}
+
+a.button.add_ignore_button span {
+	background-position: 0 -460px;
+}
+
+a.button.remove_ignore_button span {
+	background-position: 0 -500px;
+}
+
+a.button.report_user_button span {
+	background-position: 0 -520px;
+}

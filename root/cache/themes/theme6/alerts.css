@@ -1,0 +1,87 @@
+
+.unreadAlerts {
+	display: inline-block;
+}
+
+.usercp_nav_myalerts {
+	background:url(/images/usercp/transmit_blue.png) no-repeat left center;
+}
+
+.usercp_nav_myalerts_delete_all {
+	background:url(/images/usercp/delete.png) no-repeat left center;
+}
+
+.usercp_nav_myalerts_delete_read {
+	background:url(/images/usercp/bin.png) no-repeat left center;
+}
+
+.newAlerts > a {
+	color:red !important;
+}
+
+.myalerts_popup ol {
+	background: #141414;
+	color: #FFFFFF;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.myalerts_popup li {
+	background: #141414;
+	color: #FFFFFF;
+	min-height: 24px;
+	padding: 2px 4px;
+	border-bottom: 1px solid #CD1818;
+}
+
+.myalerts_popup li .avatar {
+	width: 24px;
+	float: left;
+	height: 24px;
+}
+
+.myalerts_popup li .alertContent {
+	background: #141414;
+	color: #FFFFFF;
+	margin-left: 30px;
+	
+	font-size: 11px;
+}
+
+.unreadAlert {
+		font-weight:bold;
+		background:#FFFBD9;
+}
+
+.myalerts_popup_wrapper{
+	position:relative;
+}
+
+.myalerts_popup_wrapper .myalerts_popup {
+	background: #131313;
+	width: 350px;
+	color: #131313;
+	max-width: 350px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	position: absolute;
+	left: 0;
+	z-index: 9999;
+}
+
+.myalerts_popup .popupTitle {
+	background: #CD1818;
+	color: #FFFFFF;
+	margin: 0 2px;
+	padding: 2px;
+	border-bottom: 1px solid #D4D4D4;
+	
+	font-weight: bold;
+}
+
+.myalerts_popup .popupFooter {
+	background: #CD1818;
+	color: #FFFFFF;
+	padding: 4px;
+	box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.2);
+}

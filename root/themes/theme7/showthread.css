@@ -1,0 +1,24 @@
+ul.thread_tools, ul.thread_tools li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.thread_tools li a {
+	padding: 7px;
+	display: block;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+ul.thread_tools li.subscription_add a {
+	background: #84db7d;
+	color: #145d0e;
+	border: 1px solid #54ac4d;
+}
+
+ul.thread_tools li.subscription_remove a {
+	background: #db7d7d;
+	border: 1px solid #ac4d4d;
+	color: #5d0e0e;
+}

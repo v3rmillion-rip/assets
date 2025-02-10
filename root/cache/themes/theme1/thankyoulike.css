@@ -1,0 +1,76 @@
+div[id^=tyl_btn_] {
+	display: inline-block;
+}
+
+a.add_tyl_button span{
+	background-image: url(../../../images/thankyoulike/tyl_add.png);
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+
+a.del_tyl_button span{
+	background-image: url(../../../images/thankyoulike/tyl_del.png);
+	background-repeat: no-repeat;
+	font-weight: normal;
+}
+
+.tyllist{
+	background-color: #f5f5f5;
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	padding: 2px 5px;
+}
+
+.tyllist_classic{
+	background-color: #f5f5f5;
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	padding: 2px 5px;
+}
+
+img[id^=tyl_i_expcol_]{
+	vertical-align: bottom;
+}
+
+.popular_post{
+	border: 2px solid;
+	border-radius: 3px;
+	border-color: rgba(112,202,47,0.5);
+	background-color: rgba(139,195,74,0.3);
+}
+
+.tyl_counter{
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background-color: #ddd;
+	color: #333;
+	padding: 1px 5px;
+	float: right;
+	margin: 4px 5px 0px 10px;
+	font-weight: bold;
+}
+
+.tyl_avatar{
+	width: 25px;
+	height: 25px;
+	border-radius: 12.5px;
+	margin-right: -4px;
+}
+
+.tyl_rcvdlikesrange_1, .tyl_rcvdlikesrange_1 a{
+	font-weight: bold;
+	text-decoration: none;
+	color: green;
+}
+
+.jGrowl .jGrowl-notification.jgrowl_success.tyl_jgrowl,
+.jGrowl .jGrowl-notification.jgrowl_error.tyl_jgrowl{
+	background: black;
+	border: 1px solid black;
+	color: white;
+}
+
+.jGrowl .jGrowl-notification.jgrowl_success.tyl_jgrowl .jGrowl-close,
+.jGrowl .jGrowl-notification.jgrowl_error.tyl_jgrowl .jGrowl-close {
+	color: black;
+}

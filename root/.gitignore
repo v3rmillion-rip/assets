@@ -1,0 +1,4 @@
+discord_profiles/*
+!discord_profiles/.gitkeep
+uploads/*
+admin/backups/*

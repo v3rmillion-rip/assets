@@ -1,0 +1,126 @@
+ .modcp_nav_item {
+	display: block;
+	padding: 1px 0 1px 3px;
+}
+
+.modcp_nav_home, .modcp_nav_announcements,.modcp_nav_reports,  .modcp_nav_modqueue, .modcp_nav_modlogs, .modcp_nav_editprofile, .modcp_nav_banning, .modcp_nav_warninglogs, .modcp_nav_ipsearch  {
+    position: relative;
+}
+
+.modcp_nav_home:before, .modcp_nav_announcements:before, .modcp_nav_reports:before, .modcp_nav_modqueue:before, .modcp_nav_modlogs:before, .modcp_nav_ipsearch:before,   .modcp_nav_banning:before, .modcp_nav_editprofile:before, .modcp_nav_warninglogs:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #cd1818;
+    font-size: 16px;
+    vertical-align: middle;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+-webkit-transition: all 250ms ease-in-out;
+       -moz-transition: all 250ms ease-in-out;
+       -o-transition: all 250ms ease-in-out;
+        transition: all 250ms ease-in-out;
+}
+
+.modcp_nav_home:before {
+content: "\f013";
+}
+
+
+.modcp_nav_announcements:before {
+content: "\f130";
+}
+
+.modcp_nav_reports:before {
+content: "\f071";
+}
+
+
+.modcp_nav_modqueue:before {
+content: "\f0ad";
+}
+
+.modcp_nav_modlogs:before {
+content: "\f0ae";
+}
+
+.modcp_nav_editprofile:before {
+content: "\f044";
+}
+
+.modcp_nav_banning:before {
+content: "\f070";
+}
+
+.modcp_nav_warninglogs:before {
+content: "\f03c";
+}
+
+.modcp_nav_ipsearch:before {
+content: "\f002";
+}
+
+.modqueue_message {
+	overflow: auto;
+	max-height: 250px;
+}
+
+.modqueue_controls {
+	width: 270px;
+	float: right;
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 6px;
+	font-weight: bold;
+}
+
+.modqueue_controls label {
+	margin-right: 8px;
+}
+
+.label_radio_ignore, .label_radio_delete, .label_radio_approve {
+	font-weight: bold;
+}
+
+.modqueue_meta {
+	color: #444;
+	font-size: 95%;
+	margin-bottom: 8px;
+}
+
+.modqueue_mass {
+	list-style: none;
+	margin: 0;
+	width: 150px;
+	padding: 0;
+}
+
+.modqueue_mass li {
+	margin-bottom: 4px;
+	padding: 0;
+}
+
+.modqueue_mass li a {
+	display: block;
+	padding: 4px;
+	border: 1px solid transparent;
+}
+
+.modqueue_mass li a:hover {
+	background: #efefef;
+	border: 1px solid #ccc;
+	text-decoration: none;
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

@@ -1,0 +1,323 @@
+ /* General */
+
+.patternchanger ul li a, .fixed, .fluid {
+cursor: pointer;
+color: #cd1818;
+}
+
+/* Width */
+
+.fixed, .fluid {
+background: none;
+font-size: 16px;
+list-style: none;
+display: inline-block;
+height: 40px;
+line-height: 40px;
+padding: 0px 10px;
+border-left: 1px solid #383838;
+border-right: 1px solid #242424;
+}
+
+.hidden {
+    display:none;
+}
+
+.margin {
+margin-right: -20px;
+border-right: 1px solid #3A3A3A;
+}
+
+.patternchanger {
+    width: auto;
+    display: inline-block;
+    background: none;
+    height:40px;
+    line-height:40px;
+}
+
+.patternchanger ul {
+    margin: 0;
+    padding: 0;
+}
+
+.patternchanger ul li {
+    list-style: none;
+    padding:0;
+    float: left;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+.patternchanger ul li a {
+background: none;
+display: inline-block;
+font-size: 16px;
+list-style: none;
+display: inline-block;
+height: 40px;
+line-height: 40px;
+padding: 0px 10px;
+border-left: 1px solid #3f3f3f;
+border-right: 1px solid #242424;
+}
+
+.patternchanger ul li ul {
+  transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+  top: 41px;
+  position: absolute;
+  float: left;
+  left: auto;
+  right: 0;
+}
+
+.paneldropdown {
+display: none;
+border: 0;
+background: #252525;
+padding: 5px !important;
+width: 300px;
+min-height: 350px;
+height: auto;
+z-index: 9999;
+float: left;
+transition: all 600ms linear;
+-o-transition: all 600ms linear;
+-ms-transition: all 600ms linear;
+-moz-transition: all 600ms linear;
+-webkit-transition: all 600ms linear;
+}
+.animated {
+    -webkit-animation-fill-mode:both;
+    -moz-animation-fill-mode:both;
+    -ms-animation-fill-mode:both;
+    -o-animation-fill-mode:both;
+    animation-fill-mode:both;
+    -webkit-animation-duration:750ms;
+    -moz-animation-duration:750ms;
+    -ms-animation-duration:750ms;
+    -o-animation-duration:750ms;
+    animation-duration:750ms;
+    display:inline-block;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+-webkit-animation-name: fadeIn;
+-moz-animation-name: fadeIn;
+-ms-animation-name: fadeIn;
+-o-animation-name: fadeIn;
+animation-name: fadeIn;
+}
+
+/* Theme Options */
+
+#theme-options {				
+	width: auto;	
+	-webkit-transition: 0.3s all ease;
+	-moz-transition: 0.3s all ease;
+	-o-transition: 0.3s all ease;
+	-ms-transition: 0.3s all ease;
+	transition: 0.3s all ease;
+	min-height: 280px;
+}
+#theme-options .title {
+	padding: 10px 5px 10px 12px;	
+	font-weight: 300;
+	color: #fff;
+	border-right: 0;
+	cursor: pointer;
+	position: relative;
+	margin-bottom: 15px;
+}
+#theme-options .title span{	
+	position: absolute;
+	border-left: 0;
+	right: -50px;
+	top: 0;
+	width: 60px;
+	height: 100%;
+	text-align: left;
+	border-radius: 0 5px 5px 0;
+}
+#theme-options .title span i{
+	font-size: 25px;	
+	padding: 5px 0;
+	float: right;
+}
+#theme-options span {
+	display: block;
+	width: 100%;
+	padding: 0;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+#theme-options ul { 
+	padding: 10px; 
+	margin: 0;
+}
+#theme-options ul li {
+	display: inline-block;
+	margin: 0;
+	border: 0px solid #ccc;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+	background-repeat: repeat;
+	cursor: pointer;
+         margin-right: 5px;
+        margin-bottom: 5px;
+}
+#theme-options ul.backgrounds li:hover { 
+	border-color: #ccc; 
+}
+#theme-options ul.backgrounds li.active,#theme-options ul.backgrounds li.active:hover { 
+	border-color: #ff9600; 
+}
+.colors {
+display: block;
+height: 100px;
+}
+
+.colors ul { 
+margin: 0;
+position: relative !important;
+top: 0 !important;
+padding: 5px;
+display: inline;
+margin-bottom: 20px;
+}
+
+.colors ul li {
+	display: inline-block;
+	margin: 0;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+        border-radius: 2px;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+	background-repeat: repeat;
+	cursor: pointer;
+         margin-right: 5px;
+        margin-bottom: 5px;
+}
+
+.colors ul li a {
+border: none;
+height: 40px;
+width: 40px;
+padding: 0;
+display: inline-block;
+}
+
+.colors ul.backgrounds li:hover { 
+	border-color: #ccc; 
+}
+.colors ul.backgrounds li.active,.colors ul.backgrounds li.active:hover { 
+	border-color: #ff9600; 
+}
+
+.patterns, .images{
+	display: block;
+}
+
+.patterns ul, .images ul { 
+	padding: 10px; 
+	margin: 0;
+}
+
+.patterns ul.backgrounds, .images ul.backgrounds {
+position: relative;
+top: 0;
+padding: 5px;
+display: inline;
+margin-bottom: 10px;
+}
+
+.patterns ul li, .images ul li{
+	display: inline-block;
+	margin: 0;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+	background-repeat: repeat;
+	cursor: pointer;
+         margin-right: 5px;
+        margin-bottom: 5px;
+}
+.patterns ul.backgrounds li:hover, .images ul.backgrounds li:hover{ 
+	border-color: #ccc; 
+}
+.patterns ul.backgrounds li.active,.patterns ul.backgrounds li.active:hover, .images ul.backgrounds li.active,.images ul.backgrounds li.active:hover { 
+	border-color: #ff9600; 
+}
+
+/* BACKGROUNDS PATTERNS */
+
+.backgrounds li.bg1 { background-image: url(images/majestic/patterns/bg1.png); }
+.backgrounds li.bg2 { background-image: url(images/majestic/patterns/bg2.png); }
+.backgrounds li.bg3 { background-image: url(images/majestic/patterns/bg3.png); }
+.backgrounds li.bg4 { background-image: url(images/majestic/patterns/bg4.png); }
+.backgrounds li.bg5 { background-image: url(images/majestic/patterns/bg5.png); }
+.backgrounds li.bg6 { background-image: url(images/majestic/patterns/bg6.png); }
+.backgrounds li.bg7 { background-image: url(images/majestic/patterns/bg7.png); }
+.backgrounds li.bg8 { background-image: url(images/majestic/patterns/bg8.png); }
+.backgrounds li.bg9 { background-image: url(images/majestic/patterns/bg9.png); }
+.backgrounds li.bg10 { background-image: url(images/majestic/patterns/bg10.png); }
+.backgrounds li.bg11 { background-image: url(images/majestic/patterns/bg11.png); }
+.backgrounds li.bg12 { background-image: url(images/majestic/patterns/bg12.png); }
+.backgrounds li.bg13 { background-image: url(images/majestic/patterns/bg13.png); }
+.backgrounds li.bg14 { background-image: url(images/majestic/patterns/bg14.png); }
+.backgrounds li.bg15 { background-image: url(images/majestic/patterns/bg15.png); }
+.backgrounds li.bg16 { background-image: url(images/majestic/patterns/bg16.png); }
+.backgrounds li.bg17 { background-image: url(images/majestic/patterns/bg17.png); }
+.backgrounds li.bg18 { background-image: url(images/majestic/patterns/bg18.png); }
+.backgrounds li.bg19 { background-image: url(images/majestic/patterns/bg19.jpg);background-size:cover;background-repeat:no-repeat; background-position: top center; }
+.backgrounds li.bg20 { background-image: url(images/majestic/patterns/bg20.jpg);background-size:cover;background-repeat:no-repeat; background-position: top center;  }
+.backgrounds li.bg21 { background-image: url(images/majestic/patterns/bg21.jpg);background-size:cover;background-repeat:no-repeat; background-position: top center; }
+.backgrounds li.bg22 { background-image: url(images/majestic/patterns/bg22.jpg);background-size:cover;background-repeat:no-repeat; background-position: top center; }
+.backgrounds li.bg23 { background-image: url(images/majestic/patterns/bg23.jpg);background-size:cover;background-repeat:no-repeat; background-position: top center; }
+.backgrounds li.bg24 { background-image: url(images/majestic/patterns/bg24.jpg);background-size:cover;background-repeat:no-repeat; background-position: top center; }
+
+/* Colors */
+
+.cred { background: #cd1818; }
+.cyellow { background: #f1c40f; }
+.corange { background: #d35400; }
+.cblue { background: #1B7394; }
+.cgreen { background: #2ecc71; }
+.cpurple { background: #8e44ad; }
+.cnavy { background: #34495e; }
+.cteal { background: #1abc9c; }
+.cbrown { background: #1CC0FF; }
+.cgrey { background: #2b2b2b; }
+.ccement { background: #8D9993; }
+.cpink { background: #F95071; }
+.clime { background: #7BA60D; }
+.cvorange  { background: #FF7300; }
+.cred  { background: red; }

@@ -1,0 +1,78 @@
+ 
+.thread_status {
+	display: inline-block;
+	height: 24px;
+	background-image: url(images/vermillion/folders_sprite.png);
+	background-repeat: no-repeat;
+	
+	width: 24px;
+}
+
+.thread_status.dot_folder {
+	background-position: 0 0;
+}
+
+.thread_status.dot_hotfolder {
+	background-position: 0 -24px;
+}
+
+.thread_status.dot_hotlockfolder {
+	background-position: 0 -48px;
+}
+
+.thread_status.dot_lockfolder {
+	background-position: 0 -72px;
+}
+
+.thread_status.dot_newfolder {
+	background-position: 0 -96px;
+}
+
+.thread_status.dot_newhotfolder {
+	background-position: 0 -120px;
+}
+
+.thread_status.dot_newhotlockfolder {
+	background-position: 0 -120px;
+}
+
+.thread_status.dot_newlockfolder {
+	background-position: 0 -144px;
+}
+
+.thread_status.folder {
+	background-position: 0 -168px;
+}
+
+.thread_status.hotfolder {
+	background-position: 0 -192px;
+}
+
+.thread_status.hotlockfolder {
+	background-position: 0 -216px;
+}
+
+.thread_status.lockfolder {
+	background-position: 0 -240px;
+}
+
+.thread_status.movefolder {
+	background-position: 0 -264px;
+}
+
+.thread_status.newfolder {
+	background-position: 0 -288px;
+}
+
+.thread_status.newhotfolder {
+	background-position: 0 -312px;
+}
+
+.thread_status.newhotlockfolder {
+	background-position: 0 -336px;
+}
+
+.thread_status.newlockfolder {
+	background-position: 0 -360px;
+}
+

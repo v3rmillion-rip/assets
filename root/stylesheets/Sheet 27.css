@@ -1,0 +1,190 @@
+ ul.thread_tools, ul.thread_tools li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.thread_tools li {
+	padding-left: 26px;
+	padding-bottom: 4px;
+	margin-bottom: 3px;
+	font-size: 11px;
+}
+
+ul.thread_tools li.printable {
+	background:none;
+}
+
+.printable, .sendthread, .subscription_add, .subscription_remove {
+    position: relative;
+}
+
+.printable:before, .subscription_add:before, .subscription_remove:before,  .sendthread:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #E74C3C;
+    font-size: 15px;
+    padding-right: 0.5em;
+    top: 10px;
+    left: 0;
+}
+.printable:before {
+content: "\f02f";
+}
+
+.sendthread:before {
+content: "\f003";
+}
+
+.subscription_add:before {
+content:"\f024";
+}
+
+.subscription_remove:before {
+content:"\f11d";
+}
+
+ul.thread_tools li.sendthread {
+	background: none;
+}
+
+ul.thread_tools li.subscription_add {
+	background: none;
+}
+
+ul.thread_tools li.subscription_remove {
+	background: none;
+}
+
+.showthread_spinner {
+background: #E74C3C;
+color: #FFF;
+text-align: center;
+padding: 5px 0 8px;
+width: 8%;
+top: 0;
+right: 0;
+left: 0;
+border-radius: 0 0 5px 5px;
+z-index: 10000;
+position: fixed;
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+opacity: 1;
+}
+
+.rectangle-bounce {
+text-align: center;
+visibility: visible;
+display: inline-block;
+position: relative;
+background: none;
+-webkit-transition: all 0.3s ease-in-out 0s;
+transition: all 0.3s ease-in-out 0s;
+}
+
+.rectangle-bounce div {
+height: 18px;
+width: 4px;
+margin: 0 0px 0 0;
+background: #FFF;
+visibility: visible;
+display: inline-block;
+position: relative;
+-webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.rectangle-bounce .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.rectangle-bounce .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.rectangle-bounce .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.rectangle-bounce .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0) 
+  }
+}
+
+
+.nextcon {
+  color: #FFF;
+font-size: 1.4em;
+display: inline-block;
+padding: 4px 5px;
+background: rgba(15, 15, 15, 0.41);
+box-shadow: inset 0px 0px 3px rgba(17, 17, 17, 0.41);
+border-radius: 2px;
+opacity:0.6;
+}
+
+.nextcon:hover {
+  opacity:1;
+}
+
+.sharelinks {
+width: auto;
+height: 30px;
+line-height: 30px;
+float: left;
+margin-bottom: 10px;
+display: inline-block;
+margin-top: 0;
+}
+
+#socli {
+float: left;
+cursor: pointer;
+padding: 0px 5px;
+border: 1px solid #DFDFDF;
+background: #E8E8E8;
+border-radius: 2px;
+}
+
+#soclinks {
+float: left;
+margin-left: 10px;
+line-height: 30px;
+}
+
+.soci {
+padding: 5px;
+margin-top: 5px;
+vertical-align: middle;
+color:#fff;
+}
+
+.soci:hover {
+color: #C51F2C;
+}
+
+		
+		
+		
+		
+		
